@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head><!--head ->css, 폰트 등의 설정-->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="style.css"> <!-- 스타일 시트 파일의 경로를 지정하세요 -->
 </head>
-<!--body-> --눈에 보이는 것을 작업하는 곳!!!-->
 <body>
-    안녕하세요! 저는 '고운'입니다. 저의 포트폴리오 사이트에 방문해 주셔서 감사합니다!
+    <header>
+        <h1>나의 포트폴리오</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#portfolio">포트폴리오</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>소개</h2>
+        <p>여기에 자기소개나 이력을 작성하세요.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>포트폴리오</h2>
+        <div class="portfolio-item">
+            <img src="이미지1.jpg" alt="프로젝트 1">
+            <h3>프로젝트 1 제목</h3>
+            <p>프로젝트 1에 대한 간단한 설명을 여기에 작성하세요.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="이미지2.jpg" alt="프로젝트 2">
+            <h3>프로젝트 2 제목</h3>
+            <p>프로젝트 2에 대한 간단한 설명을 여기에 작성하세요.</p>
+        </div>
+        <!-- 필요한 만큼 포트폴리오 항목을 추가하세요 -->
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>문의 사항이나 연락하고 싶은 경우 아래 정보를 이용해주세요.</p>
+        <ul>
+            <li>Email: 이메일 주소</li>
+            <li>전화번호: 연락 가능한 번호</li>
+            <li><a href="https://www.linkedin.com/프로필">LinkedIn 프로필</a></li>
+            <!-- 다른 연락 수단이 있다면 추가하세요 -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 나의 이름</p>
+    </footer>
 </body>
 </html>
